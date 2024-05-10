@@ -4,14 +4,14 @@ import smtplib
 import email
 import imaplib
 
-EMAIL = "peterfishmaniot@outlook.com";
-PASSWORD = "getreqed6000";
-SERVER = 'smtp.office365.com'
+EMAIL = "";
+PASSWORD = "";
+SERVER = ''
 
 def sendEmail(email_receiver, subject ,body):
     #variable with email sender
-    email_sender = "peterfishmaniot@outlook.com";
-    email_password = "getreqed6000";
+    email_sender = "";
+    email_password = "";
 
     em = EmailMessage()
     em['From'] = email_sender
